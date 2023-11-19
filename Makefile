@@ -11,7 +11,7 @@ objects = loader.o kernel.o
 	as $(ASPARAMS) -o $@ $<
 
 mykernel.bin: linker.ld $(objects)
-	ld $ (LDPARAMS) -T $< -o $@ $(objects)
+	ld $(LDPARAMS) -T $< -o $@ $(objects)
 
 install: mykernel.bin
 	sudo cp $< /boot/mykernel.bin
