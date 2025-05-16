@@ -25,6 +25,8 @@ sudo apt-get install g++ binutils libc6-dev-i386 xorriso
 
 ## 🧠 Comprendre le processus de démarrage
 
+![alt text](img.png)
+
 Au démarrage, la carte mère va copier les données du BIOS (assembleur) dans la RAM, que l'on appelle le firmware
 (microcode, microprogramme). Il indique au CPU de pointer le registre IP (Instruction Pointer), ce qui permet au CPU de
 lire et exécuter les informations contenues dans la RAM. (flèche noire)
