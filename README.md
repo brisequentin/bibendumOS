@@ -80,6 +80,8 @@ Nous devons donc écrire notre propre printf par exemple
 
 ## 🖥️ Affichage texte
 
+![alt text](screendisplay.png)
+
 Lorsque l’on écrit dans la ram à l’emplacement : 0xb8000
 Ce que l’on écrit sur cette ligne sera affiché par la carte graphique.
 Faire son propre OS (cpp) - le PDF4Une partie de la mémoire est réservé pour la couleur et le fond de l’écriture, qui est par défaut fond noir et police blanche.
